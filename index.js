@@ -3,6 +3,15 @@ function takeANumber(line,name) {
   var text = "Welcome, " + name + "." + " You are number " + (line.length) + " in line."
   return text
 }
+/*
+var tracknum = 0 
+function takeANumber(line) {
+  
+  tracknum++
+  line.push(tracknum)
+  var sntnc = "Welcome! " + "You are " + num.length + " in line."
+}
+*/
 function nowServing(katzDeliLine) {
   var sntnc
   if (katzDeliLine.length === 0) {
